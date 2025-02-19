@@ -24,3 +24,5 @@ so lets begin!
 ## Step 1
 lets make an excel sheet displaying all these entries to get a good visual idea first
 
+## Step 2
+writing the code and testing every part of it to make sure it works
