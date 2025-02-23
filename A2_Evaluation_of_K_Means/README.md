@@ -26,3 +26,11 @@ lets make an excel sheet displaying all these entries to get a good visual idea 
 
 ## Step 2
 writing the code and testing every part of it to make sure it works
+
+## Step 3
+run code for all cases
+
+## Step 4 
+analyse. all analysing is done in A2_Assessment.pdf
+
+assignment completed!
