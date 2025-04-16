@@ -6,5 +6,6 @@ langchain-community
 rank_bm25
 datasets 
 matplotlib
+faiss
 faiss-cpu 
 faiss-gpu 
