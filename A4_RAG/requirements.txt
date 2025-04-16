@@ -1,0 +1,10 @@
+transformers 
+sentence-transformers 
+ragas
+pypdf
+langchain-community
+rank_bm25
+datasets 
+matplotlib
+faiss-cpu 
+faiss-gpu 
