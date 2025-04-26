@@ -1,5 +1,5 @@
 # Assignment 1
-need to pass an input text to three different models
+need to pass an input text to three different models. and analyse their summarization, translation, question answering and time effeicency. 
 
 ## 3B Params
 - mistral 3B is not supported by huggingface
@@ -11,3 +11,33 @@ need to pass an input text to three different models
 - so in second running openthinker, it gave a quick answer (2mins)
 
 ## 13B Params
+- microsoft phi worked good but it skipped things itself
+
+---
+
+# Assignment 01 - LLM Response Assessment
+
+**Course:** Introduction to Text Analytics  
+**Name:** Zuha Aqib  
+**ID:** 26106  
+
+## Overview
+This assignment involved evaluating three LLMs across multiple tasks based on specific criteria:
+
+- **3B Model:** Qwen/Qwen2.5-3B-Instruct
+- **7B Model:** open-thoughts/OpenThinker-7B
+- **14B Model:** microsoft/phi-4
+
+Tasks included Summarization, Question Answering, Keyword Extraction, and Translation. Each was scored from 1-5 on criteria like Conciseness, Clarity, Accuracy, Completeness, Fidelity, Fluency, and Consistency.
+
+## Key Findings
+- **Best Overall Model:** **Qwen (3B)** — Fastest, most accurate, and completed all tasks properly.
+- **Keyword Extraction:** **OpenThinker (7B)** performed best.
+- **Time Efficiency:** Qwen was the fastest, completing tasks significantly quicker than the others.
+- **Suitability for IBA:** Qwen is recommended for its speed, accuracy, and usefulness for students, teachers, and administrative staff needing summarization and question-answering tasks.
+
+## Evaluation Criteria
+- **Summarization:** Conciseness, Clarity
+- **Question Answering:** Accuracy, Completeness
+- **Keyword Extraction:** Completeness, Categorization
+- **Translation:** Fidelity, Fluency, Consistency

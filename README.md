@@ -1,2 +1,5 @@
 # text analytics
  a repository mantaining all my intro-to-text-analytics assignments and codes
+
+## Assignment 1 - Evaluation of NLPs
+In this assignment for Introduction to Text Analytics, I evaluated three LLMs — Qwen/Qwen2.5-3B-Instruct, open-thoughts/OpenThinker-7B, and microsoft/phi-4 — across tasks like summarization, question answering, keyword extraction, and translation. Each model was scored based on conciseness, clarity, accuracy, completeness, fidelity, fluency, and consistency. Qwen (3B) emerged as the best overall model due to its speed, accuracy, and ability to handle all tasks effectively, making it the most suitable for deployment at IBA. OpenThinker (7B) performed best specifically in keyword extraction. Overall, the assignment highlighted the trade-offs between model size, response quality, and processing time.
