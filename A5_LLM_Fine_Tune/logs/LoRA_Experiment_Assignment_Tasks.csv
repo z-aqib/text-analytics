@@ -1,0 +1,11 @@
+Trial,LORA_R,LORA_ALPHA,TARGET_MODULES,EPOCHS,LEARNING_RATE,BATCH_SIZE,NOTES
+1,8,16,"['q_proj', 'v_proj']",2,0.0002,4,Baseline trial
+2,4,16,"['q_proj', 'v_proj']",2,0.0002,4,Reduce LoRA rank
+3,16,32,"['q_proj', 'v_proj']",2,0.0002,4,High capacity LoRA
+4,8,16,"['k_proj', 'o_proj']",2,0.0002,4,Different attention submodules
+5,8,16,"['q_proj', 'v_proj']",1,0.0002,4,Short training
+6,8,16,"['q_proj', 'v_proj']",3,0.0002,4,Longer training
+7,8,16,"['q_proj', 'v_proj']",2,0.0001,4,Lower learning rate
+8,8,16,"['q_proj', 'v_proj']",2,0.0003,4,Higher learning rate
+9,8,16,"['q_proj', 'v_proj']",2,0.0002,2,Smaller batch size
+10,8,16,"['q_proj', 'v_proj']",2,0.0002,8,Larger batch size
