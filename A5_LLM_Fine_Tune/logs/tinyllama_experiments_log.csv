@@ -1,0 +1,54 @@
+timestamp,training_time_mins,base_model,dataset,num_samples,lora_r,lora_alpha,lora_dropout,lora_target_modules,epochs,learning_rate,batch_size,grad_accum,max_length,bleu_base,bleu_lora,analysis,q1_base,q1_lora,q2_base,q2_lora,q3_base,q3_lora,q4_base,q4_lora,q5_base,q5_lora,q6_base,q6_lora,q7_base,q7_lora,q8_base,q8_lora,q9_base,q9_lora,q10_base,q10_lora
+2025-06-08 22:08:23,44.0,TinyLlama/TinyLlama_v1.1,yahma/alpaca-cleaned,3000,8,16,0.05,"['q_proj', 'v_proj']",2,0.0002,4,4,512,0.0388,0.0388,"No major BLEU change. Improved in 0/10 prompts, same in 10, worse in 0. Training took longer than usual.","Explain the difference between machine learning and deep learning.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then using that data to make predictions.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then using that data to make predictions.
+The difference between machine learning and deep learning is that the former is a method of learning from data","Explain the difference between machine learning and deep learning.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then using that data to make predictions.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then using that data to make predictions.
+The difference between machine learning and deep learning is that the former is a method of learning from data",What is the Pythagorean theorem used for? What is the Pythagorean theorem used for? What is the Pythagorean theorem used for? What is the Pythagorean theorem used for? What is the Pythagorean theorem used for? What is the Pythagorean theorem used for? What is the Pythagorean theorem used for? What is the Pythagorean theorem used for? What is the Pythagorean theorem used for? What is the P,What is the Pythagorean theorem used for? What is the Pythagorean theorem used for? What is the Pythagorean theorem used for? What is the Pythagorean theorem used for? What is the Pythagorean theorem used for? What is the Pythagorean theorem used for? What is the Pythagorean theorem used for? What is the Pythagorean theorem used for? What is the Pythagorean theorem used for? What is the P,"List three causes of World War II.
+The 1940s were a decade of war and conflict. The United States entered World War II in December 1941, and the United Kingdom and the Soviet Union followed in 1942. The war in Europe ended with the Allied invasion of Germany in May 1945, and the war in the Pacific ended with the Japanese surrender in August 1945.
+The United States entered World War II in December 19","List three causes of World War II.
+The 1940s were a decade of war and conflict. The United States entered World War II in December 1941, and the United Kingdom and the Soviet Union followed in 1942. The war in Europe ended with the Allied invasion of Germany in May 1945, and the war in the Pacific ended with the Japanese surrender in August 1945.
+The United States entered World War II in December 19","Translate 'Good morning' into French.
+The French language is a language of the Romance family. It is spoken by 200 million people in France, Belgium, Monaco, Switzerland, and the overseas territories of France.
+The French language is a language of the Romance family. It is spoken by 200 million people in France, Belgium, Monaco, Switzerland, and the overseas territories of France. The French language is the official language of France, and is","Translate 'Good morning' into French.
+The French language is a language of the Romance family. It is spoken by 200 million people in France, Belgium, Monaco, Switzerland, and the overseas territories of France.
+The French language is a language of the Romance family. It is spoken by 200 million people in France, Belgium, Monaco, Switzerland, and the overseas territories of France. The French language is the official language of France, and is",What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits,What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits,"Summarize the plot of Romeo and Juliet.
+The plot of Romeo and Juliet is a tragedy written by William Shakespeare in 1597. The play is set in Verona, Italy, in the middle of the 15th century. The play is about two young lovers, Romeo and Juliet, who fall in love and are forced to marry other people. The play is about the problems that can arise when two people fall in love.
+The plot of Romeo and Juliet is a","Summarize the plot of Romeo and Juliet.
+The plot of Romeo and Juliet is a tragedy written by William Shakespeare in 1597. The play is set in Verona, Italy, in the middle of the 15th century. The play is about two young lovers, Romeo and Juliet, who fall in love and are forced to marry other people. The play is about the problems that can arise when two people fall in love.
+The plot of Romeo and Juliet is a",What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,"Give an example of a palindrome.
+Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
+Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
+Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
+Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
+Palindrome: A palind","Give an example of a palindrome.
+Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
+Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
+Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
+Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
+Palindrome: A palind","How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?","How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?","Describe the lifecycle of a butterfly.
+The lifecycle of a butterfly is a complex one. The butterfly's life cycle begins with the egg. The egg is laid on the underside of a leaf or on the ground. The egg is then covered with a protective covering called a chitin. The chitin is a hard outer covering that protects the egg from the elements. The chitin also helps to keep the egg moist.
+The chitin protects the egg from","Describe the lifecycle of a butterfly.
+The lifecycle of a butterfly is a complex one. The butterfly's life cycle begins with the egg. The egg is laid on the underside of a leaf or on the ground. The egg is then covered with a protective covering called a chitin. The chitin is a hard outer covering that protects the egg from the elements. The chitin also helps to keep the egg moist.
+The chitin protects the egg from"
