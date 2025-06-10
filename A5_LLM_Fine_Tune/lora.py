@@ -13,7 +13,7 @@
 from datetime import datetime   
 
 # Capture start time
-start_time = datetime.now()
+s_start_time = datetime.now()
 
 print("Last time code executed:", datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
@@ -44,11 +44,13 @@ print("Device name:", torch.cuda.get_device_name(0) if torch.cuda.is_available()
 
 from datasets import load_dataset
 from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments
-from peft import LoraConfig, get_peft_model, TaskType, prepare_model_for_kbit_training
+from peft import LoraConfig, get_peft_model, TaskType, prepare_model_for_kbit_training, PeftModel
 from trl import SFTTrainer
 import torch
 import time
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
+from transformers import DataCollatorForLanguageModeling
+
 
 from datetime import datetime
 import csv
@@ -63,23 +65,23 @@ import os
 
 # === MODEL & DATASET CONFIGURATION ===
 
-BASE_MODEL = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"  
+BASE_MODEL = "TinyLlama/TinyLlama_v1.1"  
 # TinyLlama base model (1.1B parameters, instruction-tuned)
 
 DATASET_NAME = "yahma/alpaca-cleaned"
 # Dataset with instruction–response pairs for general fine-tuning
 
-NUM_SAMPLES = 3000  
+NUM_SAMPLES = 10000  
 # Total number of examples to use from the dataset.
 # Range: 1000–5000 (lower = faster training, higher = better quality)
 
 # === LoRA CONFIGURATION ===
 
-LORA_R = 8  
+LORA_R = 32  
 # LoRA rank — controls the number of trainable parameters added.
 # Try: 4, 8, 16, 32
 
-LORA_ALPHA = 16  
+LORA_ALPHA = 32  
 # LoRA scaling factor — higher values amplify changes made by low-rank layers.
 # Try: 16, 32, 64
 
@@ -123,7 +125,7 @@ USE_BF16 = False
 
 # === OUTPUT CONFIGURATION ===
 
-OUTPUT_DIR = "./tinyllama-lora-sft"
+OUTPUT_DIR = "/kaggle/working/tinyllama-lora-sft"
 # Folder where the fine-tuned model and checkpoints will be saved.
 # You can rename this for each experiment (e.g. "./trial1", "./lora_r16_epoch3", etc.)
 
@@ -138,7 +140,7 @@ OUTPUT_DIR = "./tinyllama-lora-sft"
 
 from huggingface_hub import login
 
-login()
+login("")
 
 
 # ## Load the model
@@ -147,17 +149,18 @@ login()
 
 
 tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL)
+tokenizer.pad_token = tokenizer.eos_token
 
 model = AutoModelForCausalLM.from_pretrained(
     BASE_MODEL,
-    device_map="auto",
+    device_map={"": 0},  # Force all model to cuda:0
     load_in_8bit=True
 )
 
 print("Model and tokenizer loaded successfully.")
 
 
-# In[ ]:
+# In[8]:
 
 
 # Prepare model for LoRA
@@ -169,7 +172,7 @@ model = prepare_model_for_kbit_training(model)
 
 # ## Load the dataset
 
-# In[ ]:
+# In[9]:
 
 
 # Load the Alpaca-cleaned dataset
@@ -178,9 +181,16 @@ dataset = load_dataset(DATASET_NAME)
 print(dataset["train"][0])  # Show a sample
 
 
+# In[10]:
+
+
+# Print the number of examples in the 'train' split
+print("Total number of samples in dataset:", len(dataset["train"]))
+
+
 # ## Preprocess into Prompt-Response Format
 
-# In[ ]:
+# In[11]:
 
 
 def format_alpaca(example):
@@ -203,13 +213,13 @@ formatted_dataset = dataset["train"].map(format_alpaca)
 # ## Limit to a certain amount of records
 # because training is taking too long lets limit to 3000 records for now
 
-# In[ ]:
+# In[12]:
 
 
 small_dataset = formatted_dataset.shuffle(seed=42).select(range(NUM_SAMPLES))
 
 
-# In[ ]:
+# In[13]:
 
 
 print(small_dataset[0]["text"])
@@ -217,25 +227,38 @@ print(small_dataset[0]["text"])
 
 # ## Tokenize the dataset
 
-# In[ ]:
+# In[14]:
 
 
+# Tokenize and add labels for causal language modeling (no masking)
 def tokenize(example):
-    return tokenizer(
-        example["text"], 
-        truncation=True, 
-        padding="max_length", 
+    tokenized = tokenizer(
+        example["text"],
+        truncation=True,
+        padding="max_length",
         max_length=MAX_LENGTH
     )
+    tokenized["labels"] = tokenized["input_ids"].copy()
+    return tokenized
 
 tokenized_dataset = small_dataset.map(tokenize, batched=True)
+tokenized_dataset.set_format(type='torch', columns=['input_ids', 'attention_mask', 'labels'])
+
+
+# In[15]:
+
+
+data_collator = DataCollatorForLanguageModeling(
+    tokenizer=tokenizer,
+    mlm=False  # Important: this is a causal LM, not masked
+)
 
 
 # # Lora
 
 # ## Configure lora
 
-# In[ ]:
+# In[16]:
 
 
 lora_config = LoraConfig(
@@ -252,7 +275,7 @@ model = get_peft_model(model, lora_config)
 
 # ## Training arguments
 
-# In[ ]:
+# In[17]:
 
 
 training_args = TrainingArguments(
@@ -270,35 +293,59 @@ training_args = TrainingArguments(
 )
 
 
-# In[ ]:
+# In[18]:
 
 
 trainer = SFTTrainer(
     model=model,
     train_dataset=tokenized_dataset,
-    tokenizer=tokenizer,
     args=training_args,
     peft_config=lora_config,
-    dataset_text_field="text"
+    data_collator=data_collator
 )
 
 
 # ## Start Training
 
-# In[ ]:
+# In[19]:
+
+
+print(next(model.parameters()).device)  # model device
+print(type(tokenized_dataset[0]['input_ids']))
+
+print(tokenized_dataset[0]['input_ids'].device)  # should show cpu
+
+
+# In[20]:
+
+
+sample_input = tokenized_dataset[0]['input_ids']
+print(type(sample_input))  # likely list
+
+sample_tensor = torch.tensor(sample_input)
+print(sample_tensor.device)  # this will be cpu by default
+
+
+# In[21]:
+
+
+trainer.model = trainer.model.to("cuda")
+
+
+# In[22]:
 
 
 # === START TIMER BEFORE TRAINING ===
 start_time = time.time()
 
 
-# In[ ]:
+# In[23]:
 
 
 trainer.train()
 
 
-# In[ ]:
+# In[24]:
 
 
 # === END TIMER AFTER TRAINING ===
@@ -306,12 +353,20 @@ end_time = time.time()
 training_minutes = round((end_time - start_time) / 60, 2)
 
 
+# In[25]:
+
+
+# After training
+trainer.model.save_pretrained("tinyllama-lora-sft")     # <- This saves LoRA adapter correctly
+tokenizer.save_pretrained("tinyllama-lora-sft")
+
+
 # # Evaluation
 # here we evaluate with 10 evaluation prompts and BLEU
 
 # ## Eval prompts with answers
 
-# In[ ]:
+# In[26]:
 
 
 eval_prompts = [
@@ -328,7 +383,7 @@ eval_prompts = [
 ]
 
 
-# In[ ]:
+# In[27]:
 
 
 reference_answers = [
@@ -348,7 +403,7 @@ reference_answers = [
 # ## Test model
 # first we run the prompts on our `BASE_MODEL` i.e. the model we started with and then we run the prompts on our `FINAL_MODEL` i.e. the model we have fine-tuned.
 
-# In[ ]:
+# In[28]:
 
 
 def generate_response(prompt, model, tokenizer):
@@ -363,11 +418,13 @@ def generate_response(prompt, model, tokenizer):
     return tokenizer.decode(output_ids[0], skip_special_tokens=True).split("### Response:")[-1].strip()
 
 
-# In[ ]:
+# In[29]:
 
+
+from peft import PeftModel
 
 base_model = AutoModelForCausalLM.from_pretrained(BASE_MODEL, device_map="auto", load_in_8bit=True)
-lora_model = AutoModelForCausalLM.from_pretrained(OUTPUT_DIR, device_map="auto")
+lora_model = PeftModel.from_pretrained(base_model, "/kaggle/working/tinyllama-lora-sft")
 
 base_outputs = [generate_response(p, base_model, tokenizer) for p in eval_prompts]
 lora_outputs = [generate_response(p, lora_model, tokenizer) for p in eval_prompts]
@@ -375,7 +432,7 @@ lora_outputs = [generate_response(p, lora_model, tokenizer) for p in eval_prompt
 
 # ## Compute BLEU
 
-# In[ ]:
+# In[30]:
 
 
 smoother = SmoothingFunction().method2
@@ -390,7 +447,7 @@ def calculate_bleu_scores(preds, refs):
     return scores
 
 
-# In[ ]:
+# In[31]:
 
 
 bleu_base_scores = calculate_bleu_scores(base_outputs, reference_answers)
@@ -408,7 +465,7 @@ print(f"LoRA Model BLEU Avg: {bleu_lora_avg:.4f}")
 
 # ## First comment on the results
 
-# In[ ]:
+# In[32]:
 
 
 # === ANALYSIS AUTO-GENERATOR ===
@@ -449,14 +506,14 @@ print("Auto-generated comment:", your_manual_comment)
 
 # ## create csv and write to it
 
-# In[ ]:
+# In[33]:
 
 
-csv_path = "/mnt/data/tinyllama_experiments_log.csv"
+csv_path = "/kaggle/working/tinyllama_experiments_log_2.csv"
 file_exists = os.path.isfile(csv_path)
 
 
-# In[ ]:
+# In[34]:
 
 
 experiment_data = {
@@ -474,22 +531,24 @@ experiment_data = {
     "batch_size": BATCH_SIZE,
     "grad_accum": GRADIENT_ACCUMULATION,
     "max_length": MAX_LENGTH,
-    "bleu_base": bleu_base_avg,
-    "bleu_lora": bleu_lora_avg,
+    "bleu_base_avg": bleu_base_avg,
+    "bleu_lora_avg": bleu_lora_avg,
     "analysis": your_manual_comment
 }
 
 
-# In[ ]:
+# In[35]:
 
 
 # Add Q&A
 for i in range(10):
     experiment_data[f"q{i+1}_base"] = base_outputs[i]
     experiment_data[f"q{i+1}_lora"] = lora_outputs[i]
+    experiment_data[f"bleu{i+1}_base"] = bleu_base_scores[i]
+    experiment_data[f"bleu{i+1}_lora"] = bleu_lora_scores[i]
 
 
-# In[ ]:
+# In[36]:
 
 
 # Write to CSV
@@ -502,14 +561,14 @@ with open(csv_path, mode='a', newline='', encoding='utf-8') as f:
 
 # # Last Executed Time
 
-# In[ ]:
+# In[37]:
 
 
 # Capture end time
-end_time = datetime.now()
+s_end_time = datetime.now()
 
 # Compute time difference
-diff = end_time - start_time
+diff = s_end_time - s_start_time
 
 # Total seconds (float)
 total_seconds = diff.total_seconds()
@@ -521,7 +580,13 @@ seconds = int(rem)
 milliseconds = diff.microseconds // 1000
 
 # Display
-print(f"Start time : {start_time.strftime('%Y-%m-%d %H:%M:%S.%f')}")
-print(f"End time   : {end_time.strftime('%Y-%m-%d %H:%M:%S.%f')}")
+print(f"Start time : {s_start_time.strftime('%Y-%m-%d %H:%M:%S.%f')}")
+print(f"End time   : {s_end_time.strftime('%Y-%m-%d %H:%M:%S.%f')}")
 print(f"Duration   : {int(hours)}h {int(minutes)}m {seconds}s {milliseconds}ms")
+
+
+# In[ ]:
+
+
+
 
