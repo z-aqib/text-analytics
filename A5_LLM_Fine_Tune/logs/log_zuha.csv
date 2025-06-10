@@ -1,41 +1,85 @@
 timestamp,training_time_mins,base_model,dataset,num_samples,lora_r,lora_alpha,lora_dropout,lora_target_modules,epochs,learning_rate,batch_size,grad_accum,max_length,bleu_base_avg,bleu_lora_avg,analysis,q1_base,q1_lora,bleu1_base,bleu1_lora,q2_base,q2_lora,bleu2_base,bleu2_lora,q3_base,q3_lora,bleu3_base,bleu3_lora,q4_base,q4_lora,bleu4_base,bleu4_lora,q5_base,q5_lora,bleu5_base,bleu5_lora,q6_base,q6_lora,bleu6_base,bleu6_lora,q7_base,q7_lora,bleu7_base,bleu7_lora,q8_base,q8_lora,bleu8_base,bleu8_lora,q9_base,q9_lora,bleu9_base,bleu9_lora,q10_base,q10_lora,bleu10_base,bleu10_lora
-2025-06-09 11:02:21,13.85,TinyLlama/TinyLlama_v1.1,yahma/alpaca-cleaned,1000,8,16,0.05,"['q_proj', 'v_proj']",2,0.0002,4,4,512,0.0288,0.0288,"No major BLEU change. Improved in 0/10 prompts, same in 10, worse in 0. Training time was reasonable.","Explain the difference between machine learning and deep learning.
+09-06-25 12:25,70.32,TinyLlama/TinyLlama_v1.1,yahma/alpaca-cleaned,5000,8,16,0.05,"['q_proj', 'v_proj']",2,0.0002,4,4,512,0.0422,0.0422,"No major BLEU change. Improved in 0/10 prompts, same in 10, worse in 0. Training took longer than usual.","Explain the difference between machine learning and deep learning.
 The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then using that data to make predictions.
+What is the difference between machine learning and deep learning?
+Machine learning is a method of learning from data, while deep learning is a method of learning from data and then using that data to make predictions.
+What is the difference between machine learning and deep learning?
+Machine learning is a method","Explain the difference between machine learning and deep learning.
 The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then using that data to make predictions.
-The difference between machine learning and deep learning is that the former is a method of learning from data","Explain the difference between machine learning and deep learning.
-The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then using that data to make predictions.
-The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then using that data to make predictions.
-The difference between machine learning and deep learning is that the former is a method of learning from data",0.02935237324980424,0.02935237324980424,"What is the Pythagorean theorem used for?
+What is the difference between machine learning and deep learning?
+Machine learning is a method of learning from data, while deep learning is a method of learning from data and then using that data to make predictions.
+What is the difference between machine learning and deep learning?
+Machine learning is a method",0.054413321,0.054413321,"What is the Pythagorean theorem used for?
 What is the Pythagorean theorem used for?
 The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle.
-The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle. The Pythagorean theorem states that the square of the hypotenuse of a right triangle is equal to the sum of the squares of the other two sides.
-The Pythag","What is the Pythagorean theorem used for?
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle.
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle. The Pythagorean theorem is used to solve problems involving the lengths","What is the Pythagorean theorem used for?
 What is the Pythagorean theorem used for?
 The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle.
-The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle. The Pythagorean theorem states that the square of the hypotenuse of a right triangle is equal to the sum of the squares of the other two sides.
-The Pythag",0.03822193055888726,0.03822193055888726,"List three causes of World War II.
-The first World War was a war of the people against the people. The second World War was a war of the people against the people. The third World War is a war of the people against the people.
-
-The first World War was a war of the people against the people. The second World War was a war of the people against the people. The third World War is a war of the people against the people.
-
-The first World War was a war of the people against","List three causes of World War II.
-The first World War was a war of the people against the people. The second World War was a war of the people against the people. The third World War is a war of the people against the people.
-
-The first World War was a war of the people against the people. The second World War was a war of the people against the people. The third World War is a war of the people against the people.
-
-The first World War was a war of the people against",0.02099817323941749,0.02099817323941749,"Translate 'Good morning' into French.
-The French language is a language of the Romance family. It is spoken by more than 250 million people in France, Belgium, Switzerland, Monaco, and the overseas territories of France.
-The French language is a language of the Romance family. It is spoken by more than 250 million people in France, Belgium, Switzerland, Monaco, and the overseas territories of France. The French language is the official language of","Translate 'Good morning' into French.
-The French language is a language of the Romance family. It is spoken by more than 250 million people in France, Belgium, Switzerland, Monaco, and the overseas territories of France.
-The French language is a language of the Romance family. It is spoken by more than 250 million people in France, Belgium, Switzerland, Monaco, and the overseas territories of France. The French language is the official language of",0.018216761495706228,0.018216761495706228,What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits,What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits,0.015005500810941388,0.015005500810941388,"Summarize the plot of Romeo and Juliet.
-The plot of Romeo and Juliet is a tragedy written by William Shakespeare. The play is set in Verona, Italy, in the 15th century. The play is about two young lovers, Romeo and Juliet. The play is about the rivalry between the Montague and Capulet families. The play is about the feud between the Montague and Capulet families. The play is about the feud between the Montague and Capu","Summarize the plot of Romeo and Juliet.
-The plot of Romeo and Juliet is a tragedy written by William Shakespeare. The play is set in Verona, Italy, in the 15th century. The play is about two young lovers, Romeo and Juliet. The play is about the rivalry between the Montague and Capulet families. The play is about the feud between the Montague and Capulet families. The play is about the feud between the Montague and Capu",0.09009349535233181,0.09009349535233181,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,0.00959263035261663,0.00959263035261663,"Give an example of a palindrome.
-Palindrome is a word that is spelled the same way both ways.
-Palindrome is a word that is spelled the same way both ways. For example, the word ""palindrome"" is spelled the same way in both directions.
-Palindrome is a word that is spelled the same way both ways. For example, the word ""palindrome"" is spelled the same way in both directions. For example, the word ""palindrome","Give an example of a palindrome.
-Palindrome is a word that is spelled the same way both ways.
-Palindrome is a word that is spelled the same way both ways. For example, the word ""palindrome"" is spelled the same way in both directions.
-Palindrome is a word that is spelled the same way both ways. For example, the word ""palindrome"" is spelled the same way in both directions. For example, the word ""palindrome",0.03643352299141244,0.03643352299141244,"How do you boil an egg perfectly?
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle.
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle. The Pythagorean theorem is used to solve problems involving the lengths",0.038221931,0.038221931,"List three causes of World War II.
+The first two are the most important. The first is the fact that the United States is the world's largest economy. The second is the fact that the United States is the world's largest democracy.
+The United States is the world's largest economy.
+The United States is the world's largest democracy.
+The United States is the world's largest economy.
+The United States is the world's largest democracy.
+The United States is the","List three causes of World War II.
+The first two are the most important. The first is the fact that the United States is the world's largest economy. The second is the fact that the United States is the world's largest democracy.
+The United States is the world's largest economy.
+The United States is the world's largest democracy.
+The United States is the world's largest economy.
+The United States is the world's largest democracy.
+The United States is the",0.022726896,0.022726896,"Translate 'Good morning' into French.
+The French word for 'good morning' is 'bonjour'.
+The French word for 'good afternoon' is 'bonsoir'.
+The French word for 'good evening' is 'bonne nuit'.
+The French word for 'good morning' is 'bonjour'.
+The French word for 'good afternoon' is 'bonsoir'.
+The French word for 'good evening' is 'bonne nuit'.
+The French word for 'good morning' is","Translate 'Good morning' into French.
+The French word for 'good morning' is 'bonjour'.
+The French word for 'good afternoon' is 'bonsoir'.
+The French word for 'good evening' is 'bonne nuit'.
+The French word for 'good morning' is 'bonjour'.
+The French word for 'good afternoon' is 'bonsoir'.
+The French word for 'good evening' is 'bonne nuit'.
+The French word for 'good morning' is",0.019417414,0.019417414,"What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?","What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?",0.016988396,0.016988396,"Summarize the plot of Romeo and Juliet.
+The plot of Romeo and Juliet is a tragedy written by William Shakespeare in 1597. The play is set in Verona, Italy, in the time of the feud between the Montague and Capulet families. The play is about two young lovers, Romeo Montague and Juliet Capulet, who fall in love and are forced to marry other people. The play is about the consequences of the feud between the families.
+The","Summarize the plot of Romeo and Juliet.
+The plot of Romeo and Juliet is a tragedy written by William Shakespeare in 1597. The play is set in Verona, Italy, in the time of the feud between the Montague and Capulet families. The play is about two young lovers, Romeo Montague and Juliet Capulet, who fall in love and are forced to marry other people. The play is about the consequences of the feud between the families.
+The",0.090867074,0.090867074,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,0.00959263,0.00959263,"Give an example of a palindrome.
+Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
+Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
+Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
+Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
+Palindrome: A palind","Give an example of a palindrome.
+Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
+Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
+Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
+Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
+Palindrome: A palind",0.139929134,0.139929134,"How do you boil an egg perfectly?
 How do you boil an egg perfectly?
 How do you boil an egg perfectly?
 How do you boil an egg perfectly?
@@ -55,6 +99,8 @@ How do you boil an egg perfectly?
 How do you boil an egg perfectly?
 How do you boil an egg perfectly?
 How do you boil an egg perfectly?
-How do you boil an egg perfectly?",0.018548163748965913,0.018548163748965913,"Describe the lifecycle of a butterfly.
-The lifecycle of a butterfly is a complex one. The butterfly's life cycle begins with the egg. The egg is laid on the underside of a leaf or on the underside of a leaf. The egg is laid on the underside of a leaf or on the underside of a leaf. The egg is laid on the underside of a leaf or on the underside of a leaf. The egg is laid on the underside of a leaf or on","Describe the lifecycle of a butterfly.
-The lifecycle of a butterfly is a complex one. The butterfly's life cycle begins with the egg. The egg is laid on the underside of a leaf or on the underside of a leaf. The egg is laid on the underside of a leaf or on the underside of a leaf. The egg is laid on the underside of a leaf or on the underside of a leaf. The egg is laid on the underside of a leaf or on",0.0117307619393482,0.0117307619393482
+How do you boil an egg perfectly?",0.018548164,0.018548164,"Describe the lifecycle of a butterfly.
+The lifecycle of a butterfly is a very interesting one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It","Describe the lifecycle of a butterfly.
+The lifecycle of a butterfly is a very interesting one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It is a very long one. It",0.011331947,0.011331947
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
