@@ -125,3 +125,58 @@ How do you boil an egg perfectly?
 How do you boil an egg perfectly?",0.018548163748965913,0.018548163748965913,"Describe the lifecycle of a butterfly.
 The lifecycle of a butterfly is a complex one. The butterfly's life cycle begins with the egg. The egg is laid on the underside of a leaf or on the ground. The egg is then covered with a protective covering called a chitin. The chitin is a hard outer covering that protects the egg from the elements. The chitin is also used to help the egg hatch. The chitin is a hard outer covering","Describe the lifecycle of a butterfly.
 The lifecycle of a butterfly is a complex one. The butterfly's life cycle begins with the egg. The egg is laid on the underside of a leaf or on the ground. The egg is then covered with a protective covering called a chitin. The chitin is a hard outer covering that protects the egg from the elements. The chitin is also used to help the egg hatch. The chitin is a hard outer covering",0.012618989616905189,0.012618989616905189
+2025-06-09 17:19:38,89.12,TinyLlama/TinyLlama_v1.1,yahma/alpaca-cleaned,3000,8,16,0.05,"['q_proj', 'v_proj']",4,0.0002,4,4,512,0.0289,0.0289,"No major BLEU change. Improved in 0/10 prompts, same in 10, worse in 0. Training took longer than usual.","Explain the difference between machine learning and deep learning.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then applying it to a problem.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then applying it to a problem.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while","Explain the difference between machine learning and deep learning.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then applying it to a problem.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then applying it to a problem.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while",0.029645185016323884,0.029645185016323884,"What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle.
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle.
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle. The Pythagorean theorem is used to solve problems involving the lengths","What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle.
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle.
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle. The Pythagorean theorem is used to solve problems involving the lengths",0.03822193055888726,0.03822193055888726,"List three causes of World War II.
+The first World War was a war of attrition. The Germans were able to inflict a lot of casualties on the Allies, but the Allies were able to inflict a lot of casualties on the Germans.
+The second World War was a war of attrition. The Germans were able to inflict a lot of casualties on the Allies, but the Allies were able to inflict a lot of casualties on the Germ","List three causes of World War II.
+The first World War was a war of attrition. The Germans were able to inflict a lot of casualties on the Allies, but the Allies were able to inflict a lot of casualties on the Germans.
+The second World War was a war of attrition. The Germans were able to inflict a lot of casualties on the Allies, but the Allies were able to inflict a lot of casualties on the Germ",0.02556054549873788,0.02556054549873788,"Translate 'Good morning' into French.
+The French language is a language of the Romance family. It is spoken by 250 million people in France, and by 40 million people in the rest of the world.
+The French language is a language of the Romance family. It is spoken by 250 million people in France, and by 40 million people in the rest of the world. The French language is spoken by 250 million people in France, and by 40","Translate 'Good morning' into French.
+The French language is a language of the Romance family. It is spoken by 250 million people in France, and by 40 million people in the rest of the world.
+The French language is a language of the Romance family. It is spoken by 250 million people in France, and by 40 million people in the rest of the world. The French language is spoken by 250 million people in France, and by 40",0.01681978484388937,0.01681978484388937,What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits,What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits,0.015005500810941388,0.015005500810941388,"Summarize the plot of Romeo and Juliet.
+The plot of Romeo and Juliet is a tragedy written by William Shakespeare in 1597. The play is set in Verona, Italy, in the middle of the 15th century. The play is about two young lovers, Romeo and Juliet, who are from two different families. The play is about the rivalry between the Montague and Capulet families. The play is about the love between Romeo and Juliet.
+The","Summarize the plot of Romeo and Juliet.
+The plot of Romeo and Juliet is a tragedy written by William Shakespeare in 1597. The play is set in Verona, Italy, in the middle of the 15th century. The play is about two young lovers, Romeo and Juliet, who are from two different families. The play is about the rivalry between the Montague and Capulet families. The play is about the love between Romeo and Juliet.
+The",0.0952010785460306,0.0952010785460306,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,0.00959263035261663,0.00959263035261663,"Give an example of a palindrome.
+Palindrome is a word that means the same as it is written.
+Palindrome is a word that means the same as it is written. It is a word that is written in the same way as it is read.
+Palindrome is a word that means the same as it is written. It is a word that is written in the same way as it is read. It is a word that is written in the same way as it is read. It is a word","Give an example of a palindrome.
+Palindrome is a word that means the same as it is written.
+Palindrome is a word that means the same as it is written. It is a word that is written in the same way as it is read.
+Palindrome is a word that means the same as it is written. It is a word that is written in the same way as it is read. It is a word that is written in the same way as it is read. It is a word",0.029166309777922547,0.029166309777922547,"How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?","How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?",0.018548163748965913,0.018548163748965913,"Describe the lifecycle of a butterfly.
+The lifecycle of a butterfly is a very interesting one. It is a very long one. It starts with the egg. The egg is laid on the ground. It is a very small egg. It is about the size of a pea. It is laid on the ground. It is a very small egg. It is laid on the ground. It is a very small egg. It is laid on the ground. It is a very small egg. It is laid on the","Describe the lifecycle of a butterfly.
+The lifecycle of a butterfly is a very interesting one. It is a very long one. It starts with the egg. The egg is laid on the ground. It is a very small egg. It is about the size of a pea. It is laid on the ground. It is a very small egg. It is laid on the ground. It is a very small egg. It is laid on the ground. It is a very small egg. It is laid on the",0.011331946500219927,0.011331946500219927
