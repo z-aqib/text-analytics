@@ -111,3 +111,82 @@ How do you boil an egg perfectly?
 How do you boil an egg perfectly?",0.018548163748965913,0.018548163748965913,"Describe the lifecycle of a butterfly.
 The lifecycle of a butterfly is a complex one. The butterfly's life cycle is divided into three stages: egg, larva, and pupa. The egg is the first stage of the butterfly's life cycle. It is a small, white, oval-shaped egg that is laid on the ground. The egg is laid on a leaf or other surface. The egg is then covered with a protective covering called a chitin.","Describe the lifecycle of a butterfly.
 The lifecycle of a butterfly is a complex one. The butterfly's life cycle is divided into three stages: egg, larva, and pupa. The egg is the first stage of the butterfly's life cycle. It is a small, white, oval-shaped egg that is laid on the ground. The egg is laid on a leaf or other surface. The egg is then covered with a protective covering called a chitin.",0.017968036232686065,0.017968036232686065
+2025-06-09 22:56:05,63.81,TinyLlama/TinyLlama_v1.1,yahma/alpaca-cleaned,3000,8,64,0.05,"['q_proj', 'v_proj']",3,0.0002,4,4,512,0.0291,0.0291,"No major BLEU change. Improved in 0/10 prompts, same in 10, worse in 0. Training took longer than usual.","Explain the difference between machine learning and deep learning.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then applying it to a problem.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then applying it to a problem.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while","Explain the difference between machine learning and deep learning.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then applying it to a problem.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then applying it to a problem.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while",0.029645185016323884,0.029645185016323884,"What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle.
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle. The Pythagorean theorem states that the square of the hypotenuse of a right triangle is equal to the sum of the squares of the other two sides.
+The Pythag","What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle.
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle. The Pythagorean theorem states that the square of the hypotenuse of a right triangle is equal to the sum of the squares of the other two sides.
+The Pythag",0.03822193055888726,0.03822193055888726,"List three causes of World War II.
+The United States has been the world's most powerful nation for the last 100 years.
+The United States has been the world's most powerful nation for the last 100 years. The United States has been the world's most powerful nation for the last 100 years. The United States has been the world's most powerful nation for the last 100 years. The United States has been the world's most powerful nation for the","List three causes of World War II.
+The United States has been the world's most powerful nation for the last 100 years.
+The United States has been the world's most powerful nation for the last 100 years. The United States has been the world's most powerful nation for the last 100 years. The United States has been the world's most powerful nation for the last 100 years. The United States has been the world's most powerful nation for the",0.022726895884884326,0.022726895884884326,"Translate 'Good morning' into French.
+The French language is a language of the Romance family. It is spoken by 220 million people in France, and by 250 million people in the rest of the world.
+The French language is a language of the Romance family. It is spoken by 220 million people in France, and by 250 million people in the rest of the world. The French language is the official language of France, and is also spoken in Belgium,","Translate 'Good morning' into French.
+The French language is a language of the Romance family. It is spoken by 220 million people in France, and by 250 million people in the rest of the world.
+The French language is a language of the Romance family. It is spoken by 220 million people in France, and by 250 million people in the rest of the world. The French language is the official language of France, and is also spoken in Belgium,",0.016607524304526253,0.016607524304526253,"What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?","What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?
+What are some benefits of daily exercise?",0.01698839571669699,0.01698839571669699,"Summarize the plot of Romeo and Juliet.
+The plot of Romeo and Juliet is a tragedy by William Shakespeare. It is one of his most famous plays. The play is set in Verona, Italy, in the summer of 1392. The play is about two young lovers, Romeo and Juliet.
+The plot of Romeo and Juliet is a tragedy by William Shakespeare. It is one of his most famous plays. The play is set in Verona, Italy, in","Summarize the plot of Romeo and Juliet.
+The plot of Romeo and Juliet is a tragedy by William Shakespeare. It is one of his most famous plays. The play is set in Verona, Italy, in the summer of 1392. The play is about two young lovers, Romeo and Juliet.
+The plot of Romeo and Juliet is a tragedy by William Shakespeare. It is one of his most famous plays. The play is set in Verona, Italy, in",0.08891179988319561,0.08891179988319561,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,0.00959263035261663,0.00959263035261663,"Give an example of a palindrome.
+Palindrome is a word that is spelled the same way on both sides of the word.
+Palindrome is a word that is spelled the same way on both sides of the word. Palindrome is a word that is spelled the same way on both sides of the word. Palindrome is a word that is spelled the same way on both sides of the word. Palindrome is a word that is spelled the same way on both sides of the","Give an example of a palindrome.
+Palindrome is a word that is spelled the same way on both sides of the word.
+Palindrome is a word that is spelled the same way on both sides of the word. Palindrome is a word that is spelled the same way on both sides of the word. Palindrome is a word that is spelled the same way on both sides of the word. Palindrome is a word that is spelled the same way on both sides of the",0.031243631137260638,0.031243631137260638,"How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?","How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?",0.018548163748965913,0.018548163748965913,"Describe the lifecycle of a butterfly.
+The lifecycle of a butterfly is a very interesting one. It is a very long one, and it is very interesting to watch.
+The lifecycle of a butterfly is a very interesting one. It is a very long one, and it is very interesting to watch. The butterfly's lifecycle is divided into three stages: egg, larva, and pupa.
+The butterfly's lifecycle is divided into three stages: egg,","Describe the lifecycle of a butterfly.
+The lifecycle of a butterfly is a very interesting one. It is a very long one, and it is very interesting to watch.
+The lifecycle of a butterfly is a very interesting one. It is a very long one, and it is very interesting to watch. The butterfly's lifecycle is divided into three stages: egg, larva, and pupa.
+The butterfly's lifecycle is divided into three stages: egg,",0.018216761495706228,0.018216761495706228
