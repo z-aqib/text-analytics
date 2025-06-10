@@ -54,3 +54,60 @@ How do you boil an egg perfectly?
 How do you boil an egg perfectly?",0.018548163748965913,0.018548163748965913,"Describe the lifecycle of a butterfly.
 The lifecycle of a butterfly is a very interesting one. It is a very long one. It starts with the egg. The egg is laid on the ground. It is a very small egg. It is about the size of a pea. The egg is laid on the ground. It is a very small egg. It is about the size of a pea. The egg is laid on the ground. It is a very small egg. It is about the size of a","Describe the lifecycle of a butterfly.
 The lifecycle of a butterfly is a very interesting one. It is a very long one. It starts with the egg. The egg is laid on the ground. It is a very small egg. It is about the size of a pea. The egg is laid on the ground. It is a very small egg. It is about the size of a pea. The egg is laid on the ground. It is a very small egg. It is about the size of a",0.011331946500219927,0.011331946500219927
+2025-06-09 21:45:34,63.83,TinyLlama/TinyLlama_v1.1,yahma/alpaca-cleaned,3000,8,32,0.05,"['q_proj', 'v_proj']",3,0.0002,4,4,512,0.0268,0.0268,"No major BLEU change. Improved in 0/10 prompts, same in 10, worse in 0. Training took longer than usual.","Explain the difference between machine learning and deep learning.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then applying it to a problem.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then applying it to a problem.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while","Explain the difference between machine learning and deep learning.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then applying it to a problem.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then applying it to a problem.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while",0.029645185016323884,0.029645185016323884,"What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+The Pythagorean theorem is used to solve problems involving the lengths of two sides of a right triangle.
+The Pythagorean theorem is used to solve problems involving the lengths of two sides of a right triangle. The Pythagorean theorem states that the square of the hypotenuse of a right triangle is equal to the sum of the squares of the other two sides.
+The Pythag","What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+The Pythagorean theorem is used to solve problems involving the lengths of two sides of a right triangle.
+The Pythagorean theorem is used to solve problems involving the lengths of two sides of a right triangle. The Pythagorean theorem states that the square of the hypotenuse of a right triangle is equal to the sum of the squares of the other two sides.
+The Pythag",0.03822193055888726,0.03822193055888726,"List three causes of World War II.
+The United States has been the world's leading military power since the end of World War II. The United States has been the world's leading military power since the end of World War II.
+The United States has been the world's leading military power since the end of World War II. The United States has been the world's leading military power since the end of World War II.
+The United States has been the world's leading military power since the end of World","List three causes of World War II.
+The United States has been the world's leading military power since the end of World War II. The United States has been the world's leading military power since the end of World War II.
+The United States has been the world's leading military power since the end of World War II. The United States has been the world's leading military power since the end of World War II.
+The United States has been the world's leading military power since the end of World",0.022409933677961475,0.022409933677961475,"Translate 'Good morning' into French.
+The French language is a language of the Romance family, which is a group of languages that includes Italian, Spanish, Portuguese, Romanian, and Romanian.
+The French language is a language of the Romance family, which is a group of languages that includes Italian, Spanish, Portuguese, Romanian, and Romanian. The French language is spoken in France, Belgium, Switzerland, Canada, and the United States.
+The French language is a language of the Romance family","Translate 'Good morning' into French.
+The French language is a language of the Romance family, which is a group of languages that includes Italian, Spanish, Portuguese, Romanian, and Romanian.
+The French language is a language of the Romance family, which is a group of languages that includes Italian, Spanish, Portuguese, Romanian, and Romanian. The French language is spoken in France, Belgium, Switzerland, Canada, and the United States.
+The French language is a language of the Romance family",0.017261011312209085,0.017261011312209085,What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits,What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits,0.015005500810941388,0.015005500810941388,"Summarize the plot of Romeo and Juliet.
+The plot of Romeo and Juliet is a tragedy written by William Shakespeare in 1597. The play is set in Verona, Italy, in the time of the feud between the Montague and Capulet families. The play is divided into two parts, the first part is the prologue and the second part is the balcony scene. The play is divided into two parts, the first part is the prologue and the second part is","Summarize the plot of Romeo and Juliet.
+The plot of Romeo and Juliet is a tragedy written by William Shakespeare in 1597. The play is set in Verona, Italy, in the time of the feud between the Montague and Capulet families. The play is divided into two parts, the first part is the prologue and the second part is the balcony scene. The play is divided into two parts, the first part is the prologue and the second part is",0.07234033604624283,0.07234033604624283,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,0.00959263035261663,0.00959263035261663,"Give an example of a palindrome.
+Palindrome definition is - a word or phrase that is the same in both its upper and lower cases. How to use palindrome in a sentence.
+Palindrome definition is - a word or phrase that is the same in both its upper and lower cases. How to use palindrome in a sentence.
+Palindrome definition is - a word or phrase that is the same in both its upper and lower cases. How to use palindrome in a sentence.","Give an example of a palindrome.
+Palindrome definition is - a word or phrase that is the same in both its upper and lower cases. How to use palindrome in a sentence.
+Palindrome definition is - a word or phrase that is the same in both its upper and lower cases. How to use palindrome in a sentence.
+Palindrome definition is - a word or phrase that is the same in both its upper and lower cases. How to use palindrome in a sentence.",0.026588276176385536,0.026588276176385536,"How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?","How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?",0.018548163748965913,0.018548163748965913,"Describe the lifecycle of a butterfly.
+The lifecycle of a butterfly is a complex one. The butterfly's life cycle is divided into three stages: egg, larva, and pupa. The egg is the first stage of the butterfly's life cycle. It is a small, white, oval-shaped egg that is laid on the ground. The egg is laid on a leaf or other surface. The egg is then covered with a protective covering called a chitin.","Describe the lifecycle of a butterfly.
+The lifecycle of a butterfly is a complex one. The butterfly's life cycle is divided into three stages: egg, larva, and pupa. The egg is the first stage of the butterfly's life cycle. It is a small, white, oval-shaped egg that is laid on the ground. The egg is laid on a leaf or other surface. The egg is then covered with a protective covering called a chitin.",0.017968036232686065,0.017968036232686065
