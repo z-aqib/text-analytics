@@ -62,3 +62,56 @@ The lifecycle of a butterfly is a very interesting one. It is a very complex one
 The lifecycle of a butterfly is a very interesting one. It is a very complex one. It is a very interesting one.
 The lifecycle of a butterfly is a very interesting one. It is a very complex one. It is a very interesting one.
 The lifecycle of a butterfly is a very interesting",0.012461726658232988,0.012461726658232988
+2025-06-10 12:42:27,45.8,TinyLlama/TinyLlama_v1.1,yahma/alpaca-cleaned,3000,8,32,0.05,"['q_proj', 'v_proj']",2,0.0002,4,2,512,0.028,0.028,"No major BLEU change. Improved in 0/10 prompts, same in 10, worse in 0. Training took longer than usual.","Explain the difference between machine learning and deep learning.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then using that data to make predictions.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then using that data to make predictions.
+The difference between machine learning and deep learning is that the former is a method of learning from data","Explain the difference between machine learning and deep learning.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then using that data to make predictions.
+The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then using that data to make predictions.
+The difference between machine learning and deep learning is that the former is a method of learning from data",0.02935237324980424,0.02935237324980424,"What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+The Pythagorean theorem is used to solve problems involving the lengths of two sides of a right triangle.
+The Pythagorean theorem is used to solve problems involving the lengths of two sides of a right triangle. The Pythagorean theorem states that the square of the hypotenuse of a right triangle is equal to the sum of the squares of the other two sides.
+The Pythag","What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+The Pythagorean theorem is used to solve problems involving the lengths of two sides of a right triangle.
+The Pythagorean theorem is used to solve problems involving the lengths of two sides of a right triangle. The Pythagorean theorem states that the square of the hypotenuse of a right triangle is equal to the sum of the squares of the other two sides.
+The Pythag",0.03822193055888726,0.03822193055888726,"List three causes of World War II.
+The first two are the most important. The first is the fact that the United States has been the world's leading military power for the last 15 years. The second is the fact that the United States has been the world's leading economic power for the last 15 years.
+The United States has been the world's leading military power for the last 15 years.
+The United States has been the world's leading economic power for the last 1","List three causes of World War II.
+The first two are the most important. The first is the fact that the United States has been the world's leading military power for the last 15 years. The second is the fact that the United States has been the world's leading economic power for the last 15 years.
+The United States has been the world's leading military power for the last 15 years.
+The United States has been the world's leading economic power for the last 1",0.021108199614700222,0.021108199614700222,"Translate 'Good morning' into French.
+The French language is a language of the Romance family. It is spoken by about 65 million people in France, and by 200 million people in the French-speaking world.
+The French language is a language of the Romance family. It is spoken by about 65 million people in France, and by 200 million people in the French-speaking world. The French language is the official language of France, and is also spoken in Belg","Translate 'Good morning' into French.
+The French language is a language of the Romance family. It is spoken by about 65 million people in France, and by 200 million people in the French-speaking world.
+The French language is a language of the Romance family. It is spoken by about 65 million people in France, and by 200 million people in the French-speaking world. The French language is the official language of France, and is also spoken in Belg",0.017037541746129536,0.017037541746129536,What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits,What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits,0.015005500810941388,0.015005500810941388,"Summarize the plot of Romeo and Juliet.
+The plot of Romeo and Juliet is a tragedy written by William Shakespeare in 1597. The play is set in Verona, Italy, in the time of the feud between the Montague and Capulet families. The play is divided into two parts, the Prologue and the Actor's Introductory Scene. The Prologue is a speech by the Lord Chamberlain, who is the official who is in charge of the","Summarize the plot of Romeo and Juliet.
+The plot of Romeo and Juliet is a tragedy written by William Shakespeare in 1597. The play is set in Verona, Italy, in the time of the feud between the Montague and Capulet families. The play is divided into two parts, the Prologue and the Actor's Introductory Scene. The Prologue is a speech by the Lord Chamberlain, who is the official who is in charge of the",0.08035550087693055,0.08035550087693055,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,0.00959263035261663,0.00959263035261663,"Give an example of a palindrome.
+Palindrome is a word that is spelled the same way both ways.
+Palindrome is a word that is spelled the same way both ways. Palindrome is a word that is spelled the same way both ways. Palindrome is a word that is spelled the same way both ways. Palindrome is a word that is spelled the same way both ways. Palindrome is a word that is spelled the same way both ways. Palind","Give an example of a palindrome.
+Palindrome is a word that is spelled the same way both ways.
+Palindrome is a word that is spelled the same way both ways. Palindrome is a word that is spelled the same way both ways. Palindrome is a word that is spelled the same way both ways. Palindrome is a word that is spelled the same way both ways. Palindrome is a word that is spelled the same way both ways. Palind",0.03363956968777874,0.03363956968777874,"How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?","How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?",0.018548163748965913,0.018548163748965913,"Describe the lifecycle of a butterfly.
+The lifecycle of a butterfly is a very interesting one. It is a very complex process that takes place over a period of about 10 days. The butterfly's lifecycle begins when it hatches from its egg. The butterfly then feeds on nectar from flowers. The butterfly then grows and matures. The butterfly then flies away to find a mate. The butterfly then lays its eggs. The","Describe the lifecycle of a butterfly.
+The lifecycle of a butterfly is a very interesting one. It is a very complex process that takes place over a period of about 10 days. The butterfly's lifecycle begins when it hatches from its egg. The butterfly then feeds on nectar from flowers. The butterfly then grows and matures. The butterfly then flies away to find a mate. The butterfly then lays its eggs. The",0.016691760840608857,0.016691760840608857
