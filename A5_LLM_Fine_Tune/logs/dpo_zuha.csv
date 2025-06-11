@@ -1,0 +1,44 @@
+timestamp,training_time,base_model,lora_model_path,dataset,dpo_beta,dpo_learning_rate,dpo_batch_size,dpo_epochs,dpo_grad_accum,max_length,bleu_dpo_avg,q1_output,bleu1,q2_output,bleu2,q3_output,bleu3,q4_output,bleu4,q5_output,bleu5,q6_output,bleu6,q7_output,bleu7,q8_output,bleu8,q9_output,bleu9,q10_output,bleu10
+2025-06-11 14:35:43,27.86,TinyLlama/TinyLlama_v1.1,/kaggle/input/best-lora-/other/default/1/kaggle/working/tinyllama-lora-sft,Intel/orca_dpo_pairs,0.1,5e-05,4,3,4,512,0.0239,"Explain the difference between machine learning and deep learning.
+The difference between the two is that the former is a machine learning technique that is used to train a model, while the latter is a deep learning technique that is used to train a model.
+The difference between the two is that the former is a machine learning technique that is used to train a model, while the latter is a deep learning technique that is used to train a model.
+The difference between the two is that the former is a machine learning technique that is used to train a model",0.0248,"What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+What is the Pythagorean",0.0264,"List three causes of World War II.
+The first World War was a war of attrition. The second was a war of attrition with a different enemy.
+The first World War was a war of attrition. The second was a war of attrition with a different enemy.
+The first World War was a war of attrition. The second was a war of attrition with a different enemy.
+The first World War was a war of attrition. The second was a war of attrition with a different enemy.",0.0206,"Translate 'Good morning' into French.
+The French language is a language of the Romance family. It is spoken by 220 million people in France, Belgium, Switzerland, Monaco, and the overseas territories of France.
+The French language is a language of the Romance family. It is spoken by 220 million people in France, Belgium, Switzerland, Monaco, and the overseas territories of France.
+The French language is a language of the Romance family",0.0187,What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits,0.015,"Summarize the plot of Romeo and Juliet.
+The plot of Romeo and Juliet is a tragic love story between two young lovers. The play is set in Verona, Italy, in the time of the feud between the Montague and Capulet families. The play is divided into two acts, the first act is the introduction of the characters and the second act is the main plot. The play is divided into two acts, the first act is the introduction of the characters and the second act is the main plot.",0.0572,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,0.0096,"Give an example of a palindrome.
+Palindrome is a word that is spelled the same way both ways.
+Palindrome is a word that is spelled the same way both ways.
+Palindrome is a word that is spelled the same way in both directions.
+Palindrome is a word that is spelled the same way in both directions.
+Palindrome is a word that is spelled the same way in both directions.
+Palindrome is a word that is spelled the",0.0345,"How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?
+How do you boil an egg perfectly?",0.0185,"Describe the lifecycle of a butterfly.
+The butterfly is a symbol of transformation, of the metamorphosis of the soul.
+The butterfly is a symbol of the transformation of the soul.
+The butterfly is a symbol of the transformation of the soul.
+The butterfly is a symbol of the transformation of the soul.
+The butterfly is a symbol of the transformation of the soul.
+The butterfly is a symbol of the transformation of the soul.
+The butter",0.0133
