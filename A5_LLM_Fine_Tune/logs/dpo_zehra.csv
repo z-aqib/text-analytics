@@ -1,56 +1,71 @@
 timestamp,training_time,base_model,lora_model_path,dataset,dpo_beta,dpo_learning_rate,dpo_batch_size,dpo_epochs,dpo_grad_accum,max_length,bleu_dpo_avg,q1_output,bleu1,q2_output,bleu2,q3_output,bleu3,q4_output,bleu4,q5_output,bleu5,q6_output,bleu6,q7_output,bleu7,q8_output,bleu8,q9_output,bleu9,q10_output,bleu10
-2025-06-11 11:26:53,159.78,TinyLlama/TinyLlama_v1.1,/kaggle/input/best_lora/other/default/1/kaggle/working/tinyllama-lora-sft,Intel/orca_dpo_pairs,0.1,5e-05,4,3,4,512,0.0299,"Explain the difference between machine learning and deep learning.
+2025-06-11 16:58:03,144.52,TinyLlama/TinyLlama_v1.1,/kaggle/input/best_lora/other/default/1/kaggle/working/tinyllama-lora-sft,Intel/orca_dpo_pairs,0.05,5e-05,4,3,4,512,0.0277,"Explain the difference between machine learning and deep learning.
 The difference between the two is that the former is a model-based approach, while the latter is a model-free approach.
-The main difference between the two is that the former is based on the model, while the latter is based on the data.
-The main difference between the two is that the former is a model-based approach, while the latter is a model-free approach.
-The main difference between the two is that the former is a model-based approach, while",0.0281,"What is the Pythagorean theorem used for?
+The main difference between the two is that the former is based on the
+experience of the model, while the latter is based on the
+experience of the data.
+
+\subsection{Experience-based learning}
+\label{sec:exp_learning}
+
+\begin{figure}[t]
+\centering",0.0414,"What is the Pythagorean theorem used for?
 What is the Pythagorean theorem used for?
-Mathematics, Geometry
-The Pythagorean theorem is a theorem in geometry that states that the sum of the squares of the lengths of the sides of a right triangle is equal to the square of the hypotenuse.
-The Pythagorean theorem is named after the Greek mathematician Pythagoras, who is credited with its discovery.
-The Pythagorean theorem",0.0451,"List three causes of World War II.
-The 1940s were a time of great change in the world. The United States was in the midst of a war with Japan, and the Soviet Union was in the midst of a war with Germany. The United States and the Soviet Union were the only two superpowers in the world. The United States was the most powerful country in the world, and the Soviet Union was the most powerful communist country.
-The United States and the Soviet Union were both at war with",0.0259,"Translate 'Good morning' into French.
-The French language is a language of the Romance family. It is spoken by 220 million people in France, Belgium, Switzerland, Monaco, and the overseas departments of French Guiana, Martinique, Guadeloupe, and Réunion.
-The French language is the official language of the European Union, and is also spoken in the United States, Canada, and the United Kingdom.
-The French language is the official language of the European Union, and",0.018,"What are some benefits of daily exercise?
-What are some benefits of daily exercise?
-What are some benefits of daily exercise?
-What are some benefits of daily exercise?
-What are some benefits of daily exercise?
-What are some benefits of daily exercise?
-What are some benefits of daily exercise?
-What are some benefits of daily exercise?
-What are some benefits of daily exercise?
-What are some benefits of daily exercise?
-What are some benefits of daily exercise?
-What are some benefits of daily exercise?",0.017,"Summarize the plot of Romeo and Juliet.
-The plot of Romeo and Juliet is a tragic love story between two young lovers from two different families. The story is set in Verona, Italy, in the time of the feud between the Montague and Capulet families. The story begins with the arrival of the Montague family to Verona. The Montague family is a wealthy family, while the Capulet family is poor. The Montague family is led by the Prince of Verona, who",0.0863,"What does HTTP stand for?
-What is the difference between HTTP and HTTPS?
-HTTP is the protocol used by the World Wide Web. It is a standard protocol that is used to transfer data between a client and a server. HTTP is a protocol that is used to transfer data between a client and a server. HTTP is a protocol that is used to transfer data between a client and a server. HTTP is a protocol that is used to transfer data between a client and a server. HTTP is a protocol that is used",0.0106,"Give an example of a palindrome.
-Palindrome: A word or phrase that is the same in both its left- and right-handed forms.
-Parallelism: The use of parallel structure in a sentence.
-Parallelism: The use of parallel structure in a sentence.
-Parallel structure: The use of parallel structure in a sentence.
-Parallel structure: The use of parallel structure in a sentence.
-Parallel structure: The use of parallel structure in a sentence.
-Parallel structure:",0.0281,"How do you boil an egg perfectly?
-How do you boil an egg?
-How do you boil an egg?
-How do you boil eggs?
-How do you boil eggs?
-How do you boil eggs?
-How do you boil eggs?
-How do you boil eggs?
-How do you boil eggs?
-How do you boil eggs?
-How do you boil eggs?
-How do you boil eggs?
-How do you boil eggs?
-How",0.0204,"Describe the lifecycle of a butterfly.
-The butterfly is a symbol of transformation, rebirth, and renewal.
-The butterfly is a symbol of transformation, rebirth, and renewal.
-The butterfly is a symbol of transformation, rebirth, and renewal.
-The butterfly is a symbol of transformation, rebirth, and renewal.
-The butterfly is a symbol of transformation, rebirth, and renewal.
-The butterfly is a symbol of transformation",0.0191
+What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+What is the Pythagorean theorem used for?
+What is the Pythagorean",0.0264,"List three causes of World War II.
+The 1940s were a time of great change in the world. The United States was in the midst of the Great Depression, and the world was in the midst of World War II. The United States was the only country to have entered the war, and the United States was the only country to win the war.
+The United States was the only country to win the war.
+The United States was the only country to win the war.
+The United States was",0.0255,"Translate 'Good morning' into French.
+The French language is a Romance language, which is spoken by 220 million people in France, Belgium, Switzerland, Luxembourg, Monaco, Andorra, and the Canary Islands.
+The French language is the official language of the European Union.
+The French language is the official language of the United Nations.
+The French language is the official language of the European Union.
+The French language is the official language of the United Nations.
+The French language",0.0173,"What are some benefits of daily exercise?
+What are the benefits of daily exercise?
+What are the benefits of exercise?
+What are the benefits of exercise?
+What are the benefits of exercise?
+What are the benefits of exercise?
+What are the benefits of exercise?
+What are the benefits of exercise?
+What are the benefits of exercise?
+What are the benefits of exercise?
+What are the benefits of exercise?
+What are the benefits of exercise?
+What are the benefits of exercise?
+What are",0.0174,"Summarize the plot of Romeo and Juliet.
+The plot of Romeo and Juliet is a tragic love story between two young lovers. The play is set in Verona, Italy, in the 1300s. The play is written in the Elizabethan English language.
+The play is a tragedy, which means that the characters are not happy with their lives. The play is also a comedy, which means that the characters are not serious.
+The play is a tragedy because the characters are",0.0736,"What does HTTP stand for?
+What is the difference between a ""stand alone"" and a ""stand alone""
+What is the difference between a ""stand alone"" and a ""stand alone""
+What is the difference between a ""stand alone"" and a ""stand alone""
+What is the difference between a ""stand alone"" and a ""stand alone""
+What is the difference between a ""stand alone"" and a ""stand alone""
+What is the difference between a ""stand alone"" and a ""stand",0.0133,"Give an example of a palindrome.
+Palindrome: A word or phrase that is the same in both its right and left sides.
+Palindromic: A word or phrase that is the same in both its right and left sides.
+Palindrome: A word or phrase that is the same in both its right and left sides.
+Palindromic: A word or phrase that is the same in both its right and left sides.
+Palindromic: A word or phrase that is the same",0.0256,"How do you boil an egg perfectly?
+How do you make a boil egg?
+How do you make a boil egg?
+How do you make a boil egg?
+How do you make a boil egg?
+How do you make a boil egg?
+How do you make a boil egg?
+How do you make a boil egg?
+How do you make a boil egg?
+How do you make a boil egg?
+How do you make a boil egg?",0.0185,"Describe the lifecycle of a butterfly.
+The butterfly is a symbol of the sun, the sun's rays, and the sun's power.
+The butterfly is a symbol of the sun, the sun's rays, and the sun's power.
+The butterfly is a symbol of the sun, the sun's rays, and the sun's power.
+The butterfly is a symbol of the sun, the sun's rays, and the sun",0.0185
