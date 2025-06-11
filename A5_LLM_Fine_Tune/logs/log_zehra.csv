@@ -1,5 +1,5 @@
 timestamp,training_time_mins,base_model,dataset,num_samples,lora_r,lora_alpha,lora_dropout,lora_target_modules,epochs,learning_rate,batch_size,grad_accum,max_length,bleu_base,bleu_lora,analysis,q1_base,q1_lora,bleu1_base,bleu1_lora,q2_base,q2_lora,bleu2_base,bleu2_lora,q3_base,q3_lora,bleu3_base,bleu3_lora,q4_base,q4_lora,bleu4_base,bleu4_lora,q5_base,q5_lora,bleu5_base,bleu5_lora,q6_base,q6_lora,bleu6_base,bleu6_lora,q7_base,q7_lora,bleu7_base,bleu7_lora,q8_base,q8_lora,bleu8_base,bleu8_lora,q9_base,q9_lora,bleu9_base,bleu9_lora,q10_base,q10_lora,bleu10_base,bleu10_lora
-2025-06-10 17:30:56,74.28,TinyLlama/TinyLlama_v1.1,yahma/alpaca-cleaned,5000,32,32,0.01,"['q_proj', 'v_proj']",2,0.0002,2,4,512,0.0373,0.0373,"No major BLEU change. Improved in 0/10 prompts, same in 10, worse in 0. Training took longer than usual.","Explain the difference between machine learning and deep learning.
+2025-06-10 19:38:05,75.14,TinyLlama/TinyLlama_v1.1,yahma/alpaca-cleaned,5000,32,32,0.1,"['q_proj', 'v_proj']",2,0.0002,2,4,512,0.0282,0.0282,"No major BLEU change. Improved in 0/10 prompts, same in 10, worse in 0. Training took longer than usual.","Explain the difference between machine learning and deep learning.
 The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then using that data to make predictions.
 The difference between machine learning and deep learning is that the former is a method of learning from data, while the latter is a method of learning from data and then using that data to make predictions.
 The difference between machine learning and deep learning is that the former is a method of learning from data","Explain the difference between machine learning and deep learning.
@@ -8,59 +8,33 @@ The difference between machine learning and deep learning is that the former is 
 The difference between machine learning and deep learning is that the former is a method of learning from data",0.02935237324980424,0.02935237324980424,"What is the Pythagorean theorem used for?
 What is the Pythagorean theorem used for?
 The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle.
-The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle. The Pythagorean theorem states that the square of the hypotenuse of a right triangle is equal to the sum of the squares of the other two sides.
-The Pythag","What is the Pythagorean theorem used for?
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle.
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle. The Pythagorean theorem is used to solve problems involving the lengths","What is the Pythagorean theorem used for?
 What is the Pythagorean theorem used for?
 The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle.
-The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle. The Pythagorean theorem states that the square of the hypotenuse of a right triangle is equal to the sum of the squares of the other two sides.
-The Pythag",0.03822193055888726,0.03822193055888726,"List three causes of World War II.
-The first two are the most important. The first is the fact that the United States has been the world's leading military power for the last 15 years. The second is the fact that the United States has been the world's leading economic power for the last 15 years.
-The United States has been the world's leading military power for the last 15 years.
-The United States has been the world's leading economic power for the last 1","List three causes of World War II.
-The first two are the most important. The first is the fact that the United States has been the world's leading military power for the last 15 years. The second is the fact that the United States has been the world's leading economic power for the last 15 years.
-The United States has been the world's leading military power for the last 15 years.
-The United States has been the world's leading economic power for the last 1",0.021108199614700222,0.021108199614700222,"Translate 'Good morning' into French.
-The French language is a language of the Romance family. It is spoken by more than 65 million people in France, and by millions more in the French-speaking countries of Belgium, Switzerland, and Canada.
-The French language is a language of the Romance family. It is spoken by more than 65 million people in France, and by millions more in the French-speaking countries of Belgium, Switzerland, and Canada. The French language is the official","Translate 'Good morning' into French.
-The French language is a language of the Romance family. It is spoken by more than 65 million people in France, and by millions more in the French-speaking countries of Belgium, Switzerland, and Canada.
-The French language is a language of the Romance family. It is spoken by more than 65 million people in France, and by millions more in the French-speaking countries of Belgium, Switzerland, and Canada. The French language is the official",0.01681978484388937,0.01681978484388937,What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits,What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits,0.015005500810941388,0.015005500810941388,"Summarize the plot of Romeo and Juliet.
-The plot of Romeo and Juliet is a tragic love story between two young lovers, Romeo Montague and Juliet Capulet. The story begins when Romeo and Juliet meet for the first time. They fall in love and begin to plan their wedding. However, their families do not approve of their marriage. They are forced to separate.
-The plot of Romeo and Juliet is a tragic love story between two young lovers, Romeo","Summarize the plot of Romeo and Juliet.
-The plot of Romeo and Juliet is a tragic love story between two young lovers, Romeo Montague and Juliet Capulet. The story begins when Romeo and Juliet meet for the first time. They fall in love and begin to plan their wedding. However, their families do not approve of their marriage. They are forced to separate.
-The plot of Romeo and Juliet is a tragic love story between two young lovers, Romeo",0.06620232569136222,0.06620232569136222,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,0.00959263035261663,0.00959263035261663,"Give an example of a palindrome.
-Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
-Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
-Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
-Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
-Palindrome: A palind","Give an example of a palindrome.
-Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
-Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
-Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
-Palindrome: A palindrome is a word or phrase that reads the same backward and forward.
-Palindrome: A palind",0.13992913386656833,0.13992913386656833,"How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?","How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?
-How do you boil an egg perfectly?",0.018548163748965913,0.018548163748965913,"Describe the lifecycle of a butterfly.
-The lifecycle of a butterfly is a very interesting one. It is a very long one, and it is very interesting to watch.
-The lifecycle of a butterfly is a very interesting one. It is a very long one, and it is very interesting to watch. The butterfly's lifecycle is divided into three stages: egg, larva, and pupa.
-The butterfly's lifecycle is divided into three stages: egg,","Describe the lifecycle of a butterfly.
-The lifecycle of a butterfly is a very interesting one. It is a very long one, and it is very interesting to watch.
-The lifecycle of a butterfly is a very interesting one. It is a very long one, and it is very interesting to watch. The butterfly's lifecycle is divided into three stages: egg, larva, and pupa.
-The butterfly's lifecycle is divided into three stages: egg,",0.018216761495706228,0.018216761495706228
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle.
+The Pythagorean theorem is used to solve problems involving the lengths of the sides of a right triangle. The Pythagorean theorem is used to solve problems involving the lengths",0.03822193055888726,0.03822193055888726,"List three causes of World War II.
+
+
+The first World War was a war of attrition. The Germans were not able to win a decisive victory, but they were able to inflict a great deal of damage on the Allies. The Allies were able to win a decisive victory, but they were not able to inflict a great deal of damage on the Germans.
+
+The second World War was a war of attrition. The Germans were not able to win a decisive victory,","List three causes of World War II.
+
+
+The first World War was a war of attrition. The Germans were not able to win a decisive victory, but they were able to inflict a great deal of damage on the Allies. The Allies were able to win a decisive victory, but they were not able to inflict a great deal of damage on the Germans.
+
+The second World War was a war of attrition. The Germans were not able to win a decisive victory,",0.023518967117726424,0.023518967117726424,"Translate 'Good morning' into French.
+The French language is a language of the Romance family. It is spoken by about 250 million people in France, Monaco, and the overseas departments of Martinique, Guadeloupe, and French Guiana.
+The French language is a language of the Romance family. It is spoken by about 250 million people in France, Monaco, and the overseas departments of Martinique, Guadeloupe, and French Guiana.","Translate 'Good morning' into French.
+The French language is a language of the Romance family. It is spoken by about 250 million people in France, Monaco, and the overseas departments of Martinique, Guadeloupe, and French Guiana.
+The French language is a language of the Romance family. It is spoken by about 250 million people in France, Monaco, and the overseas departments of Martinique, Guadeloupe, and French Guiana.",0.019866830628333356,0.019866830628333356,What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits,What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits of daily exercise? What are some benefits,0.015005500810941388,0.015005500810941388,"Summarize the plot of Romeo and Juliet.
+The plot of Romeo and Juliet is a tragedy written by William Shakespeare in 1597. The play is set in Verona, Italy, in the middle of the 15th century. The play is about two young lovers, Romeo and Juliet, who are in love with each other. The play is about the problems that arise when two families, the Montagues and the Capulets, get into a fight. The play is about the","Summarize the plot of Romeo and Juliet.
+The plot of Romeo and Juliet is a tragedy written by William Shakespeare in 1597. The play is set in Verona, Italy, in the middle of the 15th century. The play is about two young lovers, Romeo and Juliet, who are in love with each other. The play is about the problems that arise when two families, the Montagues and the Capulets, get into a fight. The play is about the",0.08969066374669722,0.08969066374669722,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,What does HTTP stand for? HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP HTTP,0.00959263035261663,0.00959263035261663,"Give an example of a palindrome.
+Palindrome definition is - a word or phrase that is the same in both its upper and lower cases. How to use palindrome in a sentence.
+Palindrome definition is - a word or phrase that is the same in both its upper and lower cases. How to use palindrome in a sentence.
+Palindrome definition is - a word or phrase that is the same in both its upper and lower cases. How to use palindrome in a sentence.","Give an example of a palindrome.
+Palindrome definition is - a word or phrase that is the same in both its upper and lower cases. How to use palindrome in a sentence.
+Palindrome definition is - a word or phrase that is the same in both its upper and lower cases. How to use palindrome in a sentence.
+Palindrome definition is - a word or phrase that is the same in both its upper and lower cases. How to use palindrome in a sentence.",0.026588276176385536,0.026588276176385536,How do you boil an egg perfectly? How do you boil an egg perfectly? How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg,How do you boil an egg perfectly? How do you boil an egg perfectly? How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg How do you boil an egg,0.015498872611311618,0.015498872611311618,"Describe the lifecycle of a butterfly.
+The lifecycle of a butterfly is a very interesting one. It is a very complex process that takes place over a period of about 10 days. The butterfly goes through a series of stages during its lifecycle. The first stage is the egg stage. The egg stage is the most important stage in the lifecycle of a butterfly. It is the stage in which the butterfly is developing. The butterfly will hatch from the egg and begin","Describe the lifecycle of a butterfly.
+The lifecycle of a butterfly is a very interesting one. It is a very complex process that takes place over a period of about 10 days. The butterfly goes through a series of stages during its lifecycle. The first stage is the egg stage. The egg stage is the most important stage in the lifecycle of a butterfly. It is the stage in which the butterfly is developing. The butterfly will hatch from the egg and begin",0.014459182353628556,0.014459182353628556
